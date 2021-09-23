@@ -25,11 +25,11 @@ $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $c
 <body>
     <header>
         <ul>
-            <li id="chemlife101" class="active">ChemLife101></li>
+            <li id="chemlife101" class="active">ChemLife101</li>
             <li><a href="#">Home</a></li>
             <li><a href="#">Study</a></li>
-            <li id="login"><a href="#">Login</a></li>
-            <li id="signup"><a href="#">Sign Up</a></li>
+            <li id="login"><a href="login.php">Login</a></li>
+            <li id="signup"><a href="signup.php">Sign Up</a></li>
         </ul>
     </header>
 </body>
