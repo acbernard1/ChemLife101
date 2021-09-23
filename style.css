@@ -9,7 +9,7 @@ body
 
 header
 {
-    background-color:darkorchid;
+    background-color:rgb(112, 72, 133);
     padding: 15px;
     box-shadow: 0 0 3px #000;
 }
@@ -30,7 +30,7 @@ header li a
 
 header li a:hover
 {
-    color: darkviolet;
+    color: rgba(148, 0, 211, 0.459);
 }
 
 header ul #login a
@@ -46,7 +46,7 @@ header ul #login a
 
 header ul #login a:hover
 {
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.336);
 }
 
 header ul #signup a
@@ -62,7 +62,7 @@ header ul #signup a
 
 header ul #signup a:hover
 {
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.336);
 }
 
 header ul #chemlife101 a
@@ -76,5 +76,5 @@ header ul #chemlife101 a
 
 .active
 {
-    color: teal;
+    color: white;
 }
