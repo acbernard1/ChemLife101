@@ -29,7 +29,7 @@ $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $c
             <li><a href="#">Home</a></li>
             <li><a href="#">Study</a></li>
             <li id="login"><a href="login.php">Login</a></li>
-            <li id="signup"><a href="signup.php">Sign Up</a></li>
+            <li id="signup"><a href="signUp.php">Sign Up</a></li>
         </ul>
     </header>
 </body>
