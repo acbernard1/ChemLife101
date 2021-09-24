@@ -8,9 +8,8 @@ body
 }
 
 header
-{   --color-primary: #9633FF;
-    
-    background-color: var(—color-primary);
+{
+    background-color: #9633FF;
     padding: 15px;
     box-shadow: 0 0 3px #000;
 }
