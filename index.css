@@ -1,24 +1,85 @@
-.item1 { grid-area: header; }
-.item2 { grid-area: menu; }
-.item3 { grid-area: main; }
-.item4 { grid-area: footer; }
-
 .grid-container {
     display: grid;
+    grid-template-columns: 200px 1fr;
     grid-template-areas: 
-    'header header header header header header'
-    'main main main main main main'
-    'menu footer footer footer footer footer';
-    grid-gap: 5px;
-    background-color: #000;
-    padding: 10px;
+        "header header"
+        "sidebar main"
+        "footer footer";
+    grid-gap: 1px;
 }
 
-.grid-container > div {
+.chemlife101
+{
+    color: white;
+}
+
+.header
+{
+    background-color: #9633FF;
+    padding: 15px;
+    box-shadow: 0 0 3px #000;
+}
+
+.header li
+{
+    display: inline;
+    padding-left: 45px;
+}
+
+.header li a
+{
+    color: floralwhite;
+    text-decoration: none;
+    padding: 13px;
+    transition: 0.3s ease;
+}
+
+.header li a:hover
+{
+    color: #008080;
+}
+
+.header ul #login a
+{
+    color: mediumpurple;
     background-color: floralwhite;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
+    border-radius: 30px;
+    float: right;
+    position: relative;
+    top: -15px;
+    transition: 0.3s ease;
+}
+
+.header ul #login a:hover
+{
+    color: floralwhite;
+    background-color: #008080;
+}
+
+.header ul #signup a
+{
+    color: mediumpurple;
+    background-color: floralwhite;
+    border-radius: 30px;
+    float: right;
+    position: relative;
+    top: -15px;
+    transition: 0.3s ease;
+}
+
+.header ul #signup a:hover
+{
+    color: floralwhite;
+    background-color: #008080;
+}
+
+.header ul #chemlife101 a
+{
+    font:bolder;
+    font-family: "Monaco", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    float: left;
+    margin-top: -20;
 }
 
 main
@@ -28,78 +89,4 @@ main
     margin: 0;
     overflow-x: hidden;
     text-align: center;
-}
-
-.item1
-{
-    background-color: #9633FF;
-    padding: 15px;
-    box-shadow: 0 0 3px #000;
-}
-
-.item1 li
-{
-    display: inline;
-    padding-left: 45px;
-}
-
-.item1 li a
-{
-    color: floralwhite;
-    text-decoration: none;
-    padding: 13px;
-    transition: 0.3s ease;
-}
-
-.item1 li a:hover
-{
-    color: #008080;
-}
-
-.item1 ul #login a
-{
-    color: mediumpurple;
-    background-color: floralwhite;
-    border-radius: 30px;
-    float: right;
-    position: relative;
-    top: -15px;
-    transition: 0.3s ease;
-}
-
-.item1 ul #login a:hover
-{
-    color: floralwhite;
-    background-color: #008080;
-}
-
-.item1 ul #signup a
-{
-    color: mediumpurple;
-    background-color: floralwhite;
-    border-radius: 30px;
-    float: right;
-    position: relative;
-    top: -15px;
-    transition: 0.3s ease;
-}
-
-.item1 ul #signup a:hover
-{
-    color: floralwhite;
-    background-color: #008080;
-}
-
-.item1 ul #chemlife101 a
-{
-    font:bolder;
-    font-family: "Monaco", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: larger;
-    float: left;
-    margin-top: -20;
-}
-
-.chemlife101
-{
-    color: white;
 }

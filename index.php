@@ -24,7 +24,7 @@ $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $c
 </head>
 <body>
     <div class = "grid-container">
-        <div class = "item1">
+        <div class = "header">
         <ul>
             <li id="chemlife101" class="chemlife101">ChemLife101</li>
             <li><a href="index.php">Home</a></li>
@@ -34,17 +34,17 @@ $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $c
             <li id="signup"><a href="signUp.php">Sign Up</a></li>
         </ul>
         </div>
-        <div class = "item2">
+        <div class = "sidebar">
             <ul>
                 <li id ="resources" class="resources">Resources><li>
                 <li><a href="periodic.php">Periodic Table></a><li>
                 <li><a href="conversions.php">Conversions></a><li>
             </ul>
         </div>
-        <div class = "item3">
+        <div class = "main">
             Main
         </div>
-        <div class = "item4">
+        <div class = "footer">
             <li><a href="">About Us></a><li>
             <li><a href="">Contact Us></a><li>
             <li><a href="references.php">ChemLife101's References></a><li>
