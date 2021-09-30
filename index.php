@@ -22,33 +22,40 @@ $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $c
     <link rel="stylesheet" href="index.css">
     <title>ChemLife101 Homepage</title>
 </head>
+
 <body>
-    <div class = "grid-container">
-        <div class = "header">
-        <ul>
-            <li id="chemlife101" class="chemlife101">ChemLife101</li>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="forum.php">Forum></a><li>
-            <li><a href="study.php">Study</a></li>
-            <li id="login"><a href="login.php">Login</a></li>
-            <li id="signup"><a href="signUp.php">Sign Up</a></li>
-        </ul>
-        </div>
-        <div class = "sidebar">
+    <div class = "grid">
+
+        <header>
+            <ul>
+                <li id="chemlife101" class="chemlife101">ChemLife101</li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="forum.php">Forum></a><li>
+                <li><a href="study.php">Study</a></li>
+                <li id="login"><a href="login.php">Login</a></li>
+                <li id="signup"><a href="signUp.php">Sign Up</a></li>
+            </ul>
+        </header>
+
+        <navbar>
             <ul>
                 <li id ="resources" class="resources">Resources><li>
                 <li><a href="periodic.php">Periodic Table></a><li>
                 <li><a href="conversions.php">Conversions></a><li>
             </ul>
-        </div>
-        <div class = "main">
+        </navbar>
+
+        <main>
             Main
-        </div>
-        <div class = "footer">
-            <li><a href="">About Us></a><li>
-            <li><a href="">Contact Us></a><li>
-            <li><a href="references.php">ChemLife101's References></a><li>
-        </div>
+        </main>
+
+        <footer>
+            <ul>
+                <li><a href="">About Us></a><li>
+                <li><a href="">Contact Us></a><li>
+                <li><a href="references.php">ChemLife101's References></a><li>
+            </ul>
+        </footer>
 </div>
 </body>
 </html>

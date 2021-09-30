@@ -1,13 +1,13 @@
-.grid-container {
+.grid 
+{
     display: grid;
-    grid-template-columns: 220px 1fr 220px;
-    grid-template-rows: auto 1fr 220px;
-    grid-gap: 12px;
+    grid-template-columns: 220px auto 220px;
+    grid-template-rows: repeat(3, 100px);
+    grid-gap: 1px;
     grid-template-areas: 
         "header header header"
-        "sidebar main rightside"
+        "navbar main main"
         "footer footer footer";
-        height: 100vh;
 }
 
 .chemlife101
@@ -15,20 +15,23 @@
     color: white;
 }
 
-.header
+header
 {
+    grid-row: 1;
+    grid-column: 1/4;
+    
     background-color: #9633FF;
     padding: 15px;
     box-shadow: 0 0 3px #000;
 }
 
-.header li
+header li
 {
     display: inline;
     padding-left: 45px;
 }
 
-.header li a
+header li a
 {
     color: floralwhite;
     text-decoration: none;
@@ -36,12 +39,12 @@
     transition: 0.3s ease;
 }
 
-.header li a:hover
+header li a:hover
 {
     color: #008080;
 }
 
-.header ul #login a
+header ul #login a
 {
     color: mediumpurple;
     background-color: floralwhite;
@@ -52,13 +55,13 @@
     transition: 0.3s ease;
 }
 
-.header ul #login a:hover
+header ul #login a:hover
 {
     color: floralwhite;
     background-color: #008080;
 }
 
-.header ul #signup a
+header ul #signup a
 {
     color: mediumpurple;
     background-color: floralwhite;
@@ -69,13 +72,13 @@
     transition: 0.3s ease;
 }
 
-.header ul #signup a:hover
+header ul #signup a:hover
 {
     color: floralwhite;
     background-color: #008080;
 }
 
-.header ul #chemlife101 a
+header ul #chemlife101 a
 {
     font:bolder;
     font-family: "Monaco", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -84,11 +87,26 @@
     margin-top: -20;
 }
 
+navbar 
+{
+    grid-row: 2;
+    grid-column: 1/2;
+}
+
 main
 {
+    grid-row: 2;
+    grid-column: 2/4;
+
     background-color: #D3D3D3;
     padding: 0;
     margin: 0;
     overflow-x: hidden;
     text-align: center;
+}
+
+footer 
+{
+    grid-row: 3;
+    grid-column: 1/4;
 }
