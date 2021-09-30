@@ -1,11 +1,13 @@
 .grid-container {
     display: grid;
-    grid-template-columns: 200px 1fr;
+    grid-template-columns: 220px 1fr 220px;
+    grid-template-rows: auto 1fr 220px;
+    grid-gap: 12px;
     grid-template-areas: 
-        "header header"
-        "sidebar main"
-        "footer footer";
-    grid-gap: 1px;
+        "header header header"
+        "sidebar main rightside"
+        "footer footer footer";
+        height: 100vh;
 }
 
 .chemlife101
