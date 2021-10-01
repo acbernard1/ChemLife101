@@ -36,16 +36,16 @@ li, a, button
 {
     list-style: none;
     font-family: "Work Sans", sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 16px;
-    color: black;
+    color: floralwhite;
     text-decoration: none;
 }
 
 button 
 {
     padding: 9px 25px;
-    background-color: floralwhite;
+    background-color: #21ADA8;
     border: none;
     border-radius: 50px;
     transition: all 0.3s ease 0s;
@@ -53,12 +53,7 @@ button
 
 button:hover
 {
-    background-color: #21ADA8;
-}
-
-.chemlife101
-{
-    color: floralwhite;
+    background-color: #D3D3D3;
 }
 
 .navlinks
@@ -81,30 +76,6 @@ button:hover
 {
     transition: all 0.3s ease 0s;
     color: #21ADA8;
-}
-
-.header a.login
-{
-    color: mediumpurple;
-    background-color: floralwhite;
-}
-
-.header a.login a:hover
-{
-    color: floralwhite;
-    background-color: #008080;
-}
-
-.signup
-{
-    color: mediumpurple;
-    background-color: floralwhite;
-}
-
-.signup a:hover
-{
-    color: floralwhite;
-    background-color: #008080;
 }
 
 main
