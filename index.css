@@ -1,50 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+:root
+{
+    --main-radius: 5px;
+    --main-padding: 5px;
+}
+
 .grid 
 {
     display: grid;
-    grid-template-columns: 220px auto 220px;
-    grid-template-rows: repeat(3, 100px);
-    grid-gap: 1px;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1.5fr 0.8fr;
     grid-template-areas: 
         "header header header"
-        "navbar main main"
-        "footer footer footer";
-}
-
-.chemlife101
-{
-    color: white;
+        "sidebar main main"
+        "sidebar footer footer";
+    grid-gap: 0.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 header
 {
-    grid-row: 1;
-    grid-column: 1/4;
-    
-    background-color: #9633FF;
-    padding: 15px;
-    box-shadow: 0 0 3px #000;
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 30px 10%;
+    background: #9633FF;   
 }
 
-header li
+li, a, button 
 {
-    display: inline;
-    padding-left: 45px;
-}
-
-header li a
-{
-    color: floralwhite;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: black;
     text-decoration: none;
-    padding: 13px;
-    transition: 0.3s ease;
 }
 
-header li a:hover
+button 
 {
-    color: #008080;
+    padding: 9px 25px;
+    background-color: floralwhite;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
 }
 
-header ul #login a
+button:hover
+{
+    background-color: #21ADA8;
+}
+
+.chemlife101
+{
+    color: floralwhite;
+}
+
+.navlinks
+{
+    list-style: none;
+}
+
+.navlink li
+{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navlink li a 
+{
+    transition: all 0.3s ease 0s;
+}
+
+.navlink li a:hover
+{
+    transition: all 0.3s ease 0s;
+    color: #21ADA8;
+}
+
+.header a.login
 {
     color: mediumpurple;
     background-color: floralwhite;
@@ -55,13 +93,13 @@ header ul #login a
     transition: 0.3s ease;
 }
 
-header ul #login a:hover
+.header a.login a:hover
 {
     color: floralwhite;
     background-color: #008080;
 }
 
-header ul #signup a
+.signup
 {
     color: mediumpurple;
     background-color: floralwhite;
@@ -72,41 +110,32 @@ header ul #signup a
     transition: 0.3s ease;
 }
 
-header ul #signup a:hover
+.signup a:hover
 {
     color: floralwhite;
     background-color: #008080;
-}
-
-header ul #chemlife101 a
-{
-    font:bolder;
-    font-family: "Monaco", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: larger;
-    float: left;
-    margin-top: -20;
-}
-
-navbar 
-{
-    grid-row: 2;
-    grid-column: 1/2;
 }
 
 main
 {
-    grid-row: 2;
-    grid-column: 2/4;
-
-    background-color: #D3D3D3;
-    padding: 0;
-    margin: 0;
-    overflow-x: hidden;
-    text-align: center;
+    grid-area: main;
+    background: #D3D3D3;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);    
 }
 
-footer 
+#sidebar
 {
-    grid-row: 3;
-    grid-column: 1/4;
+    grid-area: sidebar;
+    background: #21ADA8;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);    
+}
+
+footer
+{
+    grid-area: footer;
+    background:#D3D3D3;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);    
 }
