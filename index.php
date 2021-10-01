@@ -31,12 +31,12 @@ $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $c
             <nav>
                 <ul class="navlinks">
                     <li><a class="home" href="index.php">Home</a></li>
-                    <li><a href="forum.php">Forum></a></li>
+                    <li><a href="forum.php">Forum</a></li>
                     <li><a href="study.php">Study</a></li>
                 </ul>
             </nav>
-            <a class="signup" href="signUp.php">Sign Up</a>
-            <a class="login"href="login.php">Login</a>
+            <a class="signup" href="signUp.php"><Button>Sign Up</Button></a>
+            <a class="login"href="login.php"><Button>Login<Button></a>
         </header>
 
         <main>
@@ -45,19 +45,19 @@ $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $c
 
         <div id="sidebar">
             <ul>
-                <li id ="resources" class="resources">Resources><li>
-                <li><a href="periodic.php">Periodic Table></a><li>
-                <li><a href="conversions.php">Conversions></a><li>
+                <li id ="resources" class="resources">Resources<li>
+                <li><a href="periodic.php">Periodic Table</a><li>
+                <li><a href="conversions.php">Conversions</a><li>
             </ul>
         </div>
 
         <footer>
             <ul>
-                <li><a href="">About Us></a><li>
-                <li><a href="">Contact Us></a><li>
+                <li><a href="aboutus.php">About Us</a><li>
+                <li><a href="contactus.php">Contact Us</a><li>
                 <li><a href="references.php">ChemLife101's References></a><li>
             </ul>
         </footer>
-        
+
     </body>
 </html>
