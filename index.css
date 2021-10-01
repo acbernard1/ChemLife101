@@ -6,14 +6,6 @@
     --main-padding: 5px;
 }
 
-*
-{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background: #9633FF;  
-}
-
 .grid 
 {
     display: grid;
@@ -35,6 +27,8 @@ header
     justify-content: space-between;
     align-items: center; 
     padding: 30px 10%;
+    box-sizing: border-box;
+    background: #9633FF;
 }
 
 li, a, button 
@@ -58,6 +52,7 @@ button
 
 button:hover
 {
+    color: #21ADA8;
     background-color: #D3D3D3;
 }
 
