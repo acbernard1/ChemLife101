@@ -1,6 +1,11 @@
 <?php
 session_start();
-    $_SESSION;
+
+    include("connection.php");
+    include("main.js");
+
+    $user_data = check_login($con);
+
 ?>
 
 <?php
