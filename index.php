@@ -57,6 +57,7 @@ $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $c
                 <li><a href="contactus.php">Contact Us</a><li>
                 <li><a href="references.php">ChemLife101's References</a><li>
             </ul>
+            <a href="logout.php">Log out</a>
         </footer>
 
     </body>
