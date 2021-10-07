@@ -34,7 +34,7 @@ session_start();
        }
        else
        {
-           echo "Please enter valid info.";
+           echo "Wrong username or password.";
        }
     }
 
