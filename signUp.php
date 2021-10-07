@@ -18,7 +18,7 @@ session_start();
 
             mysqli_query($con, $query);
 
-            header("Locarion: login.php");
+            header("Location: login.php");
             die;
        }
        else
