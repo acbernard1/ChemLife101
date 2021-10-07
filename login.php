@@ -4,7 +4,39 @@ session_start();
     include("connection.php");
     include("main.js");
 
-    $user_data = check_login($con);
+    if($_SERVER['REQUEST_METHOD'] == "POST")
+    {
+        //Something was posted
+       $username =  $_POST['username'];
+       $pwd = $_POST['pwd'];
+
+       if(!empty($username) && !empty($pwd) && !is_numeric($username))
+       {
+            //Read from database
+            $query = "select * from users where user_name = '$user_name' limit 1";
+
+            $result = mysqli_query($con, $query);
+
+            if($result)
+            {
+                if($result && mysqli_num_rows($result) > 0)
+                {
+                    $user_data = mysqli_fetch_assoc($result);
+
+                    if($user_data['password'] == $pwd)
+                    {
+                        $_SESSION['user_id'] = $user_data['user_id'];
+                        header("Location: index.php");
+                         die;
+                    }
+                }
+            }
+       }
+       else
+       {
+           echo "Please enter valid info.";
+       }
+    }
 
 ?>
 
