@@ -11,16 +11,6 @@ $query_builder = TRUE;
 
 ?>
 
-<?php
-session_start();
-
-    include("connection.php");
-    include("main.js");
-
-    $user_data = check_login($con);
-
-?>
-
 <html>
 <head>
     <meta charset="UTF-8">
