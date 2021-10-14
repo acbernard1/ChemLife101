@@ -1,13 +1,12 @@
 <?php
 session_start();
     
-    require_once "connection.php";
-    require_once "main.js";
-
+    include ("connection.php");
+    include ("main.js");
 
     if($_SERVER['REQUEST_METHOD'] == "POST")
     {
-        //Something was posted
+    //Something was posted
        $username =  $_POST['username'];
        $pwd = $_POST['pwd'];
 
