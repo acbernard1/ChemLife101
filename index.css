@@ -6,32 +6,40 @@
     --main-padding: 5px;
 }
 
-.grid 
+.grid
 {
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.2fr 1.5fr 0.8fr;
-    grid-template-areas: 
-        "header header header"
+    grid-template-rows: 0.22fr 1.5fr 0.8fr;
+    grid-template-areas:
+        "header1 header2 header3"
         "sidebar main main"
         "sidebar footer footer";
     grid-gap: 0.2rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-header
+.header
 {
-    grid-area: header;
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
-    padding: 30px 10%;
-    box-sizing: border-box;
+  display: flex;
+    grid-column: header1/ header3;
+    grid-row: header1;
     background: #9633FF;
+    z-index: 10;
+
+}
+.b-group{
+  grid-area: header3;
+  justify-self: end;
+  padding-right: 10%;
+  align-self: center;
+  z-index: 20;
+
 }
 
-li, a, button 
+
+li, a, button
 {
     list-style: none;
     font-family: "Work Sans", sans-serif;
@@ -41,13 +49,16 @@ li, a, button
     text-decoration: none;
 }
 
-button 
+
+button
 {
     padding: 9px 25px;
     background-color: #21ADA8;
     border: none;
     border-radius: 50px;
     transition: all 0.3s ease 0s;
+    margin-left: 20px;
+
 }
 
 button:hover
@@ -55,19 +66,26 @@ button:hover
     color: #21ADA8;
     background-color: #D3D3D3;
 }
+.chemlife{
+  grid-area: header1;
+  justify-content: flex-start;
+  align-self: center;
+  padding-left: 10%;
+  z-index: 20;
 
-.navlinks
-{
-    list-style: none;
+}
+.navlinks{
+  grid-area:header2;
+  place-self: center;
+  justify-content: space-between;
+  z-index: 20;
+
+}
+.link{
+  padding: 2rem;
 }
 
-.navlinks li
-{
-    display: inline-block;
-    padding: 0px 20px;
-}
-
-.navlinks li a 
+.navlinks li a
 {
     transition: all 0.3s ease 0s;
 }
@@ -83,7 +101,7 @@ main
     grid-area: main;
     background: #D3D3D3;
     border-radius: var(--main-radius);
-    padding-top: var(--main-padding);    
+    padding-top: var(--main-padding);
 }
 
 #sidebar
@@ -91,7 +109,7 @@ main
     grid-area: sidebar;
     background: #21ADA8;
     border-radius: var(--main-radius);
-    padding-top: var(--main-padding);    
+    padding-top: var(--main-padding);
 }
 
 footer
@@ -99,5 +117,5 @@ footer
     grid-area: footer;
     background:#D3D3D3;
     border-radius: var(--main-radius);
-    padding-top: var(--main-padding);    
+    padding-top: var(--main-padding);
 }
