@@ -1,14 +1,4 @@
 <?php
-session_start();
-
-    include("connection.php");
-    include("main.js");
-
-    $user_data = check_login($conn);
-
-?>
-
-<?php
 //Get Heroku ClearDB connection information
 $cleardb_url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 $cleardb_server = $cleardb_url["host"];
@@ -18,6 +8,16 @@ $cleardb_db = substr($cleardb_url["path"],1);
 
 $active_group = 'default';
 $query_builder = TRUE;
+
+?>
+
+<?php
+session_start();
+
+    include("connection.php");
+    include("main.js");
+
+    $user_data = check_login($conn);
 
 ?>
 
