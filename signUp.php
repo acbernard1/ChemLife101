@@ -1,8 +1,9 @@
 <?php
 session_start();
     
-    include("connection.php");
-    include("main.js");
+    require_once "connection.php";
+    require_once "main.js";
+
 
     if($_SERVER['REQUEST_METHOD'] == "POST")
     {
