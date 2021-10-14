@@ -1,21 +1,11 @@
 <?php
 session_start();
+    
+include ("connection.php");
+include ("main.js");
 
-    require_once "connection.php";
-    require_once "main.js";
-
-    $user_data = check_login($con);
-
+$user_data = check_login($con);
 ?>
-
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewpoint" content="width-device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="index.css">
-    <title>ChemLife101 Homepage</title>
-</head>
 
 <html>
 <head>
@@ -42,7 +32,7 @@ session_start();
         </div>
 
         <main>
-            Main
+            Hello, Username
         </main>
 
         <div id="sidebar">
