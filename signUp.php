@@ -1,7 +1,6 @@
 <?php
 session_start();
     
-    require_once();
     include("connection.php");
     include("main.js");
 
@@ -27,6 +26,8 @@ session_start();
            echo "Please enter valid info.";
        }
     }
+
+    require_once();
 ?>
 
 <!DOCTYPE html>
