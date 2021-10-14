@@ -27,7 +27,6 @@ session_start();
        }
     }
 
-    require_once();
 ?>
 
 <!DOCTYPE html>
