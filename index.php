@@ -2,7 +2,7 @@
 session_start();
     
 include ("connection.php");
-include ("main.js");
+include ("main.php");
 
 $user_data = check_login($con);
 ?>

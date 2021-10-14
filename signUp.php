@@ -2,7 +2,7 @@
 session_start();
     
     include ("connection.php");
-    include ("main.js");
+    include ("main.php");
 
     if($_SERVER['REQUEST_METHOD'] == "POST")
     {
