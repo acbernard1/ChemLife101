@@ -1,6 +1,6 @@
 <?php
 
-    $dbhost = "heroku";
+    $dbhost = "cleardb-shallow-98066";
     $dbuser = "b21349ad86976d";
     $dbpass = "22f1f85e";
     $dbname = "heroku_1c20d2071a3d5d8";
