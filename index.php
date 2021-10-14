@@ -17,7 +17,7 @@ session_start();
     include("connection.php");
     include("main.js");
 
-    $user_data = check_login($conn);
+    $user_data = check_login($con);
 
 ?>
 
