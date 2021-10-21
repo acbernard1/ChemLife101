@@ -31,6 +31,41 @@
                 <th>G</th>
                 <th>10<sup>9<sup></th>
             </tr>
+            <tr>
+                <th>mega</th>
+                <th>M</th>
+                <th>10<sup>6<sup></th>
+            </tr>
+            <tr>
+                <th>kilo</th>
+                <th>k</th>
+                <th>10<sup>3<sup></th>
+            </tr>
+            <tr>
+                <th>hecto</th>
+                <th>h</th>
+                <th>10<sup>2<sup></th>
+            </tr>
+            <tr>
+                <th>deka</th>
+                <th>da</th>
+                <th>10<sup>1<sup></th>
+            </tr>
+            <tr>
+                <th>deci</th>
+                <th>d</th>
+                <th>10<sup>-1<sup></th>
+            </tr>
+            <tr>
+                <th>centi</th>
+                <th>c</th>
+                <th>10<sup>-2<sup></th>
+            </tr>
+            <tr>
+                <th>milli</th>
+                <th>m</th>
+                <th>10<sup>-3<sup></th>
+            </tr>
 
         </table>
 </body>
