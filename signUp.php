@@ -1,33 +1,3 @@
-<?php
-session_start();
-    
-    include ("connection.php");
-    include ("main.js");
-
-    if($_SERVER['REQUEST_METHOD'] == "POST")
-    {
-    //Something was posted
-       $username =  $_POST['username'];
-       $pwd = $_POST['pwd'];
-
-       if(!empty($username) && !empty($pwd) && !is_numeric($username))
-       {
-            //Save to database
-            $user_id = random_num(50);
-            $query = "insert into users (user_id, user_name, password) values ('$user_id', '$user_name', '$password')";
-
-            mysqli_query($con, $query);
-
-            header("Location: login.php");
-            die;
-       }
-       else
-       {
-           echo "Please enter valid info.";
-       }
-    }
-
-?>
 
 <!DOCTYPE html>
 <html lang="en">
