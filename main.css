@@ -16,6 +16,16 @@ body {
  background-size: cover;
 }
 
+.header
+{
+  display: flex;
+    grid-column: header1/ header3;
+    grid-row: header1;
+    background: #9633FF;
+    z-index: 10;
+
+}
+
 .container {
  width: 400px;
  max-width: 400px;
