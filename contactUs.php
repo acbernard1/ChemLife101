@@ -17,6 +17,5 @@
                 <li><a href="aboutUs.php">About Us</a><li>
                 <li><a href="ref.php">ChemLife101's References</a><li>
             </ul>
-            <a href="logout.php">Log out</a>
         </footer>
 </html>
