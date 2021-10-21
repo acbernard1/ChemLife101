@@ -18,8 +18,20 @@
               <a class= "link" href="forum.php">Forum</a>
               <a class = "link" href="study.php">Study</a>
         </div>
-        <div class= "container">
-              
-        </div>
+
+        <h1>Conversion Table</h1>
+        <table>
+            <tr>
+               <th>Prefix</th>
+               <th>Symbol</th>
+               <th>Magnitude</th> 
+            </tr>
+            <tr>
+                <th>giga</th>
+                <th>G</th>
+                <th>10^9</th>
+            </tr>
+
+        </table>
 </body>
 </html>
