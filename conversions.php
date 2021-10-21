@@ -20,7 +20,7 @@
         </div>
 
         <h1>Conversion Table</h1>
-        <table>
+        <table class="container">
             <tr>
                <th>Prefix</th>
                <th>Symbol</th>
@@ -29,7 +29,7 @@
             <tr>
                 <th>giga</th>
                 <th>G</th>
-                <th>10^9</th>
+                <th>10<sup>9<sup></th>
             </tr>
 
         </table>
