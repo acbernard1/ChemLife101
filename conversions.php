@@ -22,7 +22,7 @@
         <h1>Conversion Table</h1>
         <table class="container">
             <tr>
-               <th>Prefix</th>
+               <th><h2>Prefix<h2></th>
                <th>Symbol</th>
                <th>Magnitude</th> 
             </tr>
