@@ -31,16 +31,16 @@
         <div id="sidebar">
             <ul>
                 <li id ="resources" class="resources">Resources<li>
-                <li><a href="periodic.php">Periodic Table</a><li>
+                <li><a href="periodicTable.php">Periodic Table</a><li>
                 <li><a href="conversions.php">Conversions</a><li>
             </ul>
         </div>
 
         <footer>
             <ul>
-                <li><a href="aboutus.php">About Us</a><li>
-                <li><a href="contactus.php">Contact Us</a><li>
-                <li><a href="references.php">ChemLife101's References</a><li>
+                <li><a href="aboutUs.php">About Us</a><li>
+                <li><a href="contactUs.php">Contact Us</a><li>
+                <li><a href="ref.php">ChemLife101's References</a><li>
             </ul>
             <a href="logout.php">Log out</a>
         </footer>
