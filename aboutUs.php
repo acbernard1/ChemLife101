@@ -9,6 +9,15 @@
 </head>
 
 <body>
+<div class = "grid">
+      <div class= "header">
+    </div>
+       <a class="chemlife">ChemLife101</a>
+       <div class="navlinks"> <!––changed to div for easier adjustment––>
+              <a class="home link" href="index.php">Home</a>
+              <a class= "link" href="forum.php">Forum</a>
+              <a class = "link" href="study.php">Study</a>
+        </div>
     
 </body>
 
