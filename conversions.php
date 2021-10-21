@@ -21,4 +21,5 @@
               <a class="signup" href="signUp.php"><Button>Sign Up</Button></a>
               <a class="login"href="login.php"><Button>Login</Button></a>
         </div>
-        
+</body>
+</html>
