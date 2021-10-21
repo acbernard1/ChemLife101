@@ -6,6 +6,7 @@
     <title>ChemLife101: Conversion Table</title>
     <link rel="shortcut icon" href="/assets/favicon.ico">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
