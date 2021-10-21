@@ -1,10 +1,11 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <meta name="viewpoint" content="width-device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ChemLife101: Conversion Table</title>
+    <link rel="shortcut icon" href="/assets/favicon.ico">
     <link rel="stylesheet" href="main.css">
-    <title>ChemLife101: Conversions</title>
 </head>
 
 <body>
@@ -17,9 +18,8 @@
               <a class= "link" href="forum.php">Forum</a>
               <a class = "link" href="study.php">Study</a>
         </div>
-        <div class= "b-group">
-              <a class="signup" href="signUp.php"><Button>Sign Up</Button></a>
-              <a class="login"href="login.php"><Button>Login</Button></a>
+        <div class= "container">
+              
         </div>
 </body>
 </html>
