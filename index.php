@@ -7,7 +7,7 @@
     <title>ChemLife101 Homepage</title>
 </head>
 
-<body>
+<!--<body>
     <div class = "grid">
       <div class= "header">
     </div>
@@ -42,5 +42,8 @@
             </ul>
         </footer>
 
+    </body>-->
+    <body>
+        
     </body>
 </html>
