@@ -21,4 +21,8 @@
     {
         die("failed to connect!");
     }
+    else{
+
+        echo "Great work!!"
+    }
 ?>
