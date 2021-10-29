@@ -16,10 +16,33 @@ $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $c
     <meta charset="UTF-8">
     <meta name="viewpoint" content="width-device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="main.css">
     <title>ChemLife101 Homepage</title>
 </head>
+<body>
+<header>
+  <h1 class="logo">Logo</h1>
+  <input type="checkbox" id="nav-toggle" class="nav-toggle">
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <label for="nav-toggle" class="nav-toggle-label">
+    <span></span>
+  </label>
+</header>
 
+
+
+
+<div class="content">
+  <h2>Your content would go here</h2>
+</div>
+</body>
 <!--<body>
     <div class = "grid">
       <div class= "header">
@@ -56,7 +79,4 @@ $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $c
         </footer>
 
     </body>-->
-    <body>
-        
-    </body>
 </html>
