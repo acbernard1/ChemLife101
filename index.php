@@ -25,10 +25,10 @@ $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $c
   <input type="checkbox" id="nav-toggle" class="nav-toggle">
   <nav>
     <ul>
-      <li><a href="index.html.php">Home</a></li>
-      <li><a href="aboutUs.html.php">About</a></li>
+      <li><a href="index.php">Home</a></li>
+      <li><a href="aboutUs.php">About</a></li>
       <li><a href="#">Blog</a></li>
-      <li><a href="contactUs.html.php">Contact Us</a></li>
+      <li><a href="contactUs.php">Contact Us</a></li>
     </ul>
   </nav>
   <label for="nav-toggle" class="nav-toggle-label">
