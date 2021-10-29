@@ -21,14 +21,14 @@ $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $c
 </head>
 <body>
 <header>
-  <h1 class="logo">Logo</h1>
+  <h1 class="logo">ChemLife101</h1>
   <input type="checkbox" id="nav-toggle" class="nav-toggle">
   <nav>
     <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
+      <li><a href="index.html.php">Home</a></li>
+      <li><a href="aboutUs.html.php">About</a></li>
       <li><a href="#">Blog</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="contactUs.html.php">Contact Us</a></li>
     </ul>
   </nav>
   <label for="nav-toggle" class="nav-toggle-label">
