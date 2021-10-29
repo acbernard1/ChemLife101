@@ -160,7 +160,7 @@ body {
   /*background-image: url(//unsplash.it/1000/1000);*/
   background-color: #333;
   background-blend-mode: multiply;
-  background-size: cover;
+  /*background-size: cover;*/
   display: grid;
   place-items: center;
 }
