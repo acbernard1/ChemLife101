@@ -41,5 +41,17 @@ $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $c
 <div class="content">
   <h2>Your content would go here</h2>
 </div>
+
+<!--footer-->
+<div class="footer">
+  <div class="footer-content">
+  <div class="footer-section about"></div>
+  <div class="footer-section contact"></div>
+  </div>
+  <div class="footer-bottom">
+    &copy; https://chemlife101.herokuapp.com/index.php | Desgined by Carina George
+  </div>
+</div>
+<!-- // footer-->
 </body>
 </html>

@@ -331,4 +331,10 @@ nav a:hover {
     transform: scale(1,1);
   }
 }
-
+/* FOOTER */
+.footer
+{
+  background: rgba(0, 214, 170, .85);
+  color: #d3d3d3;
+  height: 400px;
+}
