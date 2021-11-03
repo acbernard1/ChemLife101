@@ -341,7 +341,7 @@ nav a:hover {
 }
 .footer .footer-bottom
 {
-  background: #343a40;
+  background: rgba(0, 214, 170, .85);;
   color:rgba(0, 214, 171, 0.966);
   height: 50px;
   text-align: center;
