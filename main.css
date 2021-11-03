@@ -344,6 +344,7 @@ nav a:hover {
   background: rgba(0, 214, 170, .85);;
   color:rgba(0, 214, 171, 0.966);
   height: 50px;
+  width: 100%;
   text-align: center;
   position: absolute;
   bottom: 0px;
