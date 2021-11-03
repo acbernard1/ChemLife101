@@ -27,7 +27,6 @@ $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $c
     <ul>
       <li><a href="index.php">Home</a></li>
       <li><a href="aboutUs.php">About</a></li>
-      <li><a href="#">Blog</a></li>
       <li><a href="contactUs.php">Contact Us</a></li>
     </ul>
   </nav>
@@ -43,40 +42,4 @@ $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $c
   <h2>Your content would go here</h2>
 </div>
 </body>
-<!--<body>
-    <div class = "grid">
-      <div class= "header">
-    </div>
-       <a class="chemlife">ChemLife101</a>
-       <div class="navlinks"> <!––changed to div for easier adjustment––>
-              <a class="home link" href="index.php">Home</a>
-              <a class= "link" href="forum.php">Forum</a>
-              <a class = "link" href="study.php">Study</a>
-        </div>
-        <div class= "b-group">
-              <a class="signup" href="signUp.php"><Button>Sign Up</Button></a>
-              <a class="login"href="login.php"><Button>Login</Button></a>
-        </div>
-
-        <main>
-            Hello, Username
-        </main>
-
-        <div id="sidebar">
-            <ul>
-                <li id ="resources" class="resources">Resources<li>
-                <li><a href="periodicTable.php">Periodic Table</a><li>
-                <li><a href="conversions.php">Conversions</a><li>
-            </ul>
-        </div>
-
-        <footer>
-            <ul>
-                <li><a href="aboutUs.php">About Us</a><li>
-                <li><a href="contactUs.php">Contact Us</a><li>
-                <li><a href="ref.php">ChemLife101's References</a><li>
-            </ul>
-        </footer>
-
-    </body>-->
 </html>
