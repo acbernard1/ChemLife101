@@ -1,28 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <title>ChemLife101: Contact Us</title>
-    <link rel="shortcut icon" href="/assets/favicon.ico">
+    <meta name="viewpoint" content="width-device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="main.css">
+    <title>ChemLife101 Homepage</title>
 </head>
-
 <body>
-<div class = "grid">
-      <div class= "header">
-    </div>
-       <a class="chemlife">ChemLife101</a>
-       <div class="navlinks"> <!––changed to div for easier adjustment––>
-              <a class="home link" href="index.php">Home</a>
-              <a class= "link" href="forum.php">Forum</a>
-              <a class = "link" href="study.php">Study</a>
-        </div>
-    
-<footer>
+<header>
+  <h1 class="logo">ChemLife101</h1>
+  <input type="checkbox" id="nav-toggle" class="nav-toggle">
+  <nav>
     <ul>
-        <li><a href="aboutUS.php">About Us</a><li>
+      <li><a href="index.php">Home</a></li>
+      <li><a href="aboutUs.php">About</a></li>
+      <li><a href="contactUs.php">Contact Us</a></li>
     </ul>
-</footer>
+  </nav>
+  <label for="nav-toggle" class="nav-toggle-label">
+    <span></span>
+  </label>
+</header>
+
+
+
+
+<div class="content">
+  <h2>Your content would go here</h2>
+</div>
 </body>
 </html>
